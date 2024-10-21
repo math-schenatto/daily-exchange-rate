@@ -32,3 +32,4 @@
 
 # SQLite database files (se aplicável)
 *.db
+requests.db
