@@ -1,0 +1,34 @@
+# Go workspace file
+*.go.work
+
+# Binaries for programs and plugins
+/bin/
+/*.exe
+/*.exe~ 
+/*.dll
+/*.so
+/*.dylib
+
+# Dependency directories
+/vendor/
+
+# Go build cache
+*.cache
+
+# Test binary, build cache, etc.
+*.test
+*.out
+
+# IDE and editor files
+*.idea/
+*.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# SQLite database files (se aplicável)
+*.db
