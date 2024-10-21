@@ -6,9 +6,9 @@ This is a simple API that provides the dollar exchange rate for the day. The pro
 
 ## Project Structure
 
-- **client/**: Contains the code for the client that makes requests to the API.
-- **server/**: Contains the code for the server that processes requests and persists data.
-- **database/**: Contains the SQLite3 configuration and database schema.
+- **internal/client/**: Contains the code for the client that makes requests to the API.
+- **internal/server/**: Contains the code for the server that processes requests and persists data.
+- **internal/database/**: Contains the SQLite3 configuration and database schema.
 
 ## Requirements
 
