@@ -41,7 +41,7 @@ This is a simple API that provides the dollar exchange rate for the day. The pro
 
 1. Make a request with the client:
    ```bash
-   cd ../client
+   go run cmd/client/main.go
    ```
 
 ### Example Request
