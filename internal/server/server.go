@@ -14,14 +14,14 @@ import (
 func StartServer() {
 	http.HandleFunc("/cotacao", ChangeOfDayHandler)
 	// Log indicando que o servidor está rodando
-	log.Println("Servidor iniciado na porta 8081")
-	if err := http.ListenAndServe(":8081", nil); err != nil {
+	log.Println("Servidor iniciado na porta 8080")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal("Erro ao iniciar o servidor: ", err)
 	}
 }
 
 func ChangeOfDayHandler(w http.ResponseWriter, r *http.Request) {
-	ctx, cancel := context.WithTimeout(context.Background(), 400*time.Millisecond)
+	ctx, cancel := context.WithTimeout(context.Background(), 200*time.Millisecond)
 	defer cancel()
 
 	change, error := ChangeOfDay(ctx)
